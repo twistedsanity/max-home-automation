@@ -1,4 +1,4 @@
-FROM jlesage/baseimage-gui:debian-9
+FROM jlesage/baseimage-gui:debian-10
 
 # Install max-home-automation.
 COPY sources.list.d/* /etc/apt/sources.list.d/
