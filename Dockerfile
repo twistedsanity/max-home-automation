@@ -4,7 +4,9 @@ FROM jlesage/baseimage-gui:debian-10
 COPY sources.list.d/* /etc/apt/sources.list.d/
 RUN apt-get update && apt-get install -y \
     libpython3.7-dev \
-    max-home-automation
+    max-home-automation \
+    
+    apt-get clean
 
 # Set the name of the application.
 ENV APP_NAME="MAX! Home Automation"
