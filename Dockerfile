@@ -4,9 +4,11 @@ FROM jlesage/baseimage-gui:debian-10
 COPY sources.list.d/* /etc/apt/sources.list.d/
 RUN apt-get update && apt-get install -y \
     libpython3.7-dev \
+    apt-utils \
     max-home-automation && \
 
 # cleanup
+  apt-get upgrade -y --force-yes -qq && \
   apt-get purge --auto-remove -y && \
   apt-get clean && \
   rm -rf \
