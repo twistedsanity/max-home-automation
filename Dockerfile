@@ -1,7 +1,7 @@
 FROM jlesage/baseimage-gui:debian-10
 
 # Install max-home-automation..
-COPY sources.list.d/* /etc/apt/sources.list.d/
+RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions buster main" >> /etc/apt/sources.list
 RUN apt-get update && apt-get install -y \
     libpython3.7-dev \
     apt-utils \
