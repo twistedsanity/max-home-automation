@@ -17,4 +17,4 @@ You can optionally use port 5900 to access the application's GUI via the VNC pro
 
 Check out the [Environment Variables](https://github.com/jlesage/docker-baseimage-gui/#environment-variables) section from `docker-baseimage-gui` to customize the behavior of the container and the application.
 
-.
+..
