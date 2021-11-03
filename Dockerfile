@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     apt-utils \
     max-home-automation && \
 
-# cleanup
+# cleanup.
   apt-get upgrade -y --force-yes -qq && \
   apt-get purge --auto-remove -y && \
   apt-get clean && \
