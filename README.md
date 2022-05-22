@@ -7,7 +7,7 @@ Wrapped in the [docker-baseimage-gui](https://github.com/jlesage/docker-baseimag
 
 Usage:
 
-    docker run --rm -p 5800:5800 -v /my/config/path:/config rhopman/max-home-automation
+    docker run --rm -p 5800:5800 -v /my/config/path:/config twistedsanity/max-home-automation
 
 You should be able to access the xterm GUI by opening in a web browser:
 
