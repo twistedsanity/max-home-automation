@@ -1,7 +1,7 @@
 # MAX! Home Automation
 
 
-Docker image for the [MAX! Home Automation](http://www.dmitry-kazakov.de/ada/max_home_automation.htm) application by Dmitry A. Kazakov.
+Docker image for the [MAX! Home Automation](http://www.dmitry-kazakov.de/ada/max_home_automation.htm) v4.5 application by Dmitry A. Kazakov.
 
 Wrapped in the [docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui) from Jocelyn Le Sage.
 
