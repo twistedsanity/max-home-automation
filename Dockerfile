@@ -2,10 +2,12 @@ FROM jlesage/baseimage-gui:debian-11
 #
 # Install max-home-automation..
 RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bullseye main" >> /etc/apt/sources.list
-RUN apt-get update && apt-get install -y \
-    libpython3.9-dev \
-    apt-utils \
-    max-home-automation && \
+RUN apt-get update && \
+    apt-get upgrade -y --force-yes -qq && \
+    apt-get install -y \
+        libpython3.9-dev \
+        apt-utils \
+        max-home-automation && \
 #
 # cleanup.
   apt-get upgrade -y --force-yes -qq && \
