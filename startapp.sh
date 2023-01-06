@@ -1,3 +1,3 @@
 #!/bin/sh
 export HOME=/home/app
-exec /usr/bin/max_home_automation
+exec /usr/bin/max_home_automation --restore=/config/settings.txt
