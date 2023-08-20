@@ -1,5 +1,5 @@
 # MAX! Home Automation
-# Probably no further updates from me as I am looking to move away from Max! to somethign a little more modern.
+# Probably no further updates from me as I am looking to move away from Max! to something a little more modern.
 
 
 Docker image for the [MAX! Home Automation](http://www.dmitry-kazakov.de/ada/max_home_automation.htm) v4.x application by Dmitry A. Kazakov.
