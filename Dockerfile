@@ -6,7 +6,7 @@ RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bookworm 
 RUN apt-get update && \
     apt-get upgrade -y --force-yes -qq && \
     apt-get install -y \
-        libpython3.9-dev \
+        libpython3.11-dev \
         apt-utils \
         max-home-automation && \
 #
