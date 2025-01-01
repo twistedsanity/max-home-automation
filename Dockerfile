@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y \
         libpython3.9-dev \
         apt-utils \
-        max-home-automation-4.9 && \
+        max-home-automation && \
 #
 # cleanup.
   apt-get update && \
