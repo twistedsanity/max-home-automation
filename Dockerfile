@@ -1,4 +1,5 @@
-FROM jlesage/baseimage-gui:debian-11
+FROM debian:12.5-slim
+# FROM jlesage/baseimage-gui:debian-11
 #
 # Install max-home-automation..
 RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bookworm main" >> /etc/apt/sources.list
