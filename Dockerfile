@@ -1,7 +1,7 @@
-FROM jlesage/baseimage-gui:debian-11
+FROM jlesage/baseimage-gui:debian-12
 #
 # Install max-home-automation..
-RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bullseye main" >> /etc/apt/sources.list
+RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bookworm main" >> /etc/apt/sources.list
 RUN apt-get update && \
     apt-get upgrade -y --force-yes -qq && \
     apt-get install -y \
