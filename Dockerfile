@@ -5,7 +5,7 @@ FROM debian:12.5-slim
 RUN apt-get update && \
     apt-get upgrade -y --force-yes -qq && \
     apt-get install -y \
-        ca-certificates \
+        ca-certificates
 RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bookworm main" >> /etc/apt/sources.list
 RUN apt-get update && \
     apt-get install -y \
