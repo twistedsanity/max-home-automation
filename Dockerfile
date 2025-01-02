@@ -27,4 +27,4 @@ RUN apt-get update && \
 ENV APP_NAME="MAX! Home Automation"
 #
 # Copy the start script.
-COPY startapp.sh /startapp.sh
+COPY startapp.sh /config/startapp.sh
