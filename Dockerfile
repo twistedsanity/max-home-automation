@@ -1,4 +1,4 @@
-FROM debian:12.5-slim
+FROM jlesage/baseimage-gui:debian-12-v4
 # FROM jlesage/baseimage-gui:debian-11
 #
 # Install max-home-automation..
