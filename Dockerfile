@@ -28,3 +28,4 @@ ENV APP_NAME="MAX! Home Automation"
 #
 # Copy the start script.
 COPY startapp.sh /startapp.sh
+RUN chmod +x /startapp.sh
