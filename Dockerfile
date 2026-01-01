@@ -8,6 +8,7 @@ RUN apt-get update && \
     apt-get install -y \
         ca-certificates
 RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions/ubuntu noble main" >> /etc/apt/sources.list
+RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions/ubuntu jammy main" >> /etc/apt/sources.list
 RUN apt-get update && \
     apt-get install -y \
         apt-utils \
