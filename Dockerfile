@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get upgrade -y --force-yes -qq && \
     apt-get install -y \
         ca-certificates
-RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions bookworm main" >> /etc/apt/sources.list
+RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions trixie main" >> /etc/apt/sources.list
 RUN apt-get update && \
     apt-get install -y \
         libpython3.11-dev \
