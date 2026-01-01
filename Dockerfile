@@ -12,7 +12,7 @@ RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions/ubuntu ja
 RUN apt-get update && \
     apt-get install -y \
         apt-utils \
-        libstrings-edit3.10 \
+        libstrings-edit \
         libpython3.12-dev \
         max-home-automation && \
 #
