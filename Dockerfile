@@ -11,7 +11,7 @@ RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions/ubuntu no
 RUN apt-get update && \
     apt-get install -y \
         apt-utils \
-        libpython3.11-dev \
+        libpython3.12-dev \
         max-home-automation && \
 #
 # cleanup.
