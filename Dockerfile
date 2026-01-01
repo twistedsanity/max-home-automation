@@ -11,7 +11,7 @@ RUN echo "deb [trusted=yes] http://www.dmitry-kazakov.de/distributions/ubuntu no
 RUN apt-get update && \
     apt-get install -y \
         apt-utils \
-        libstrings-edit3.10-dev \
+        libstrings-edit-dev \
         libpython3.12-dev \
         max-home-automation && \
 #
